@@ -1,1 +1,19 @@
-
+name: Dataset for chatbot
+description: It consists of two columns: question \t answer \n . Suitable for simple chatbots. Contains 3725 items
+link: https://www.kaggle.com/datasets/grafstor/simple-dialogs-for-chatbot
+contributors: 
+- name: GEORGY SILKIN 
+data:
+- name: dialogs.txt
+  description: It consists of two columns: question \t answer \n . Suitable for simple chatbots. Contains 3725 items
+  path: dataset/dialogs.txt
+  format: txt
+  size: 243.9 kB
+  fields:
+  - name: Question
+    description: Holds the questions.
+  - name: Answer
+    description: Holds the answer to the question. 
+license:
+- name: GNU Free Documentation License 1.3
+  link: https://www.gnu.org/licenses/fdl-1.3.html
